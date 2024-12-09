@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(19,19,19,17)50%, rgba(19,19,19,17)50%);
+    background-size:cover;
+    background-position: center;
+    height:109vh;
+
+}
+
+.navbar {
+    width: 1200px;
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ul {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+ul a {
+    display: inline block;
+    margin: 20px;
+    padding: 10px;
+    color: rgb(240, 233, 233);
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left:;
+    
+    
+}
+
+ul a:hover {
+    color: orangered;
+}
+.navbar .logo{
+    width: 130px;
+    height: 130px;
+    padding-top: 10px;
+    padding-left: 90px;
+    float: left;
+    align-items: left;
+}
+
+.image .girl {
+    left: 900px;
+    width: 250px;
+    height: 370px;
+    top: 200px;
+    position: absolute;
+    padding: 25px;
+    border-radius: 100%;
+    border: 1px solid brown; 
+
+}
+
+.image:hover .girl {
+    left: 60%;
+}
+
+.info {
+    margin-left: 7%;
+    margin-top: 6%;
+    padding: 0%;
+    
+}
+
+.info h1 {
+    font-size: 65px;
+    color: rgb(230, 225, 225);
+}
+
+.info h3 {
+    font-size: 18px;
+    color: rgb(235, 232, 232);
+}
+
+.info h3, h1, a {
+    margin: 0;
+}
+.info span {
+    color: orangered;
+}
+
+.info a {
+    text-decoration: none;
+    color: black;
+    background: rgb(241, 236, 236);
+    padding: 10px 18px;
+    margin: 26px 0;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.info a:hover {
+    background: orangered
+}
+
+.icon  {
+    font-size: 25px;
+    margin-left: 7%;
+    letter-spacing: 15px;
+margin-top: 20px;
+}
+
+.icon  a {
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.icon a:hover {
+    color: orangered;
+}
